@@ -1,6 +1,28 @@
-.venv/
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
 *.pyc
-*.DS_Store
-data/
-outputs/
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Local environment variables (if you create one)
+.env
+
+# Large raw data (optional: keep small samples only)
+data/raw/
+data/*.zip
+*.sqlite
+*.db
+
+# Optional: keep DB dump or not (uncomment to ignore)
+# schema_export.sql
+
+# VS Code settings
+.vscode/
